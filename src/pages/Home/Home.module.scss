@@ -1,0 +1,18 @@
+.homeBox {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    .contentBox {
+        overflow: hidden;
+        height: calc(100% - 50px);
+        width: 100%;
+        .leftComponentBox {
+            height: 100%;
+            width: 260px !important;
+            padding: 0 8px;
+            border-right: 2px dotted #ebeef5;
+            overflow-y: scroll;
+            margin-bottom: 20px;
+        }
+    }
+}

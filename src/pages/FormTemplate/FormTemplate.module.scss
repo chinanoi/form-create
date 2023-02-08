@@ -1,0 +1,29 @@
+.templateExample {
+    padding: 8px;
+    overflow-y: scroll;
+    .templateItem {
+        border: 1px solid #8896b3;
+        margin-top: 3px;
+        margin-bottom: 10px;
+        .cardBox {
+            padding: 20px;
+            .templatePhoto {
+                width: 200px;
+            }
+            .templateName {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 10px;
+                .name {
+                    font-size: 13px;
+                    font-weight: 700;
+                }
+                .loading {
+                    color: #409eff;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

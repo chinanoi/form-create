@@ -1,0 +1,31 @@
+.headerBox {
+    border-bottom: 2px dotted #ebeef5;
+    height: 48px!important;
+    line-height: 48px!important;
+    min-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    .leftLogo {
+        display: flex;
+        align-items: center;
+        .logo {
+            width: 36px;
+            height: 36px;
+        }
+        .logoText {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 6px 0 6px;
+            color: #242424;
+        }
+    }
+    .logoRight {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .rightItem {
+            margin-right: 16px;
+        }
+    }
+}
