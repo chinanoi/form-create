@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FormTemplate.module.scss';
+import styles from './FormTemplate.module.less';
 import { Button, Popover } from 'antd';
 import itemPicture from '../../assets/bq.jpg';
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from "./Home.module.scss";
+import styles from "./Home.module.less";
 import type { TabsProps, MenuProps } from 'antd';
 import { Button, Tabs } from 'antd';
 import {

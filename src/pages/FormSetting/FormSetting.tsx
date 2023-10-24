@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FormSetting.module.scss';
+import styles from './FormSetting.module.less';
 import {
     RightOutlined,
     DownOutlined,

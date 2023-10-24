@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Dropdown, Tooltip } from 'antd';
 import type { TabsProps, MenuProps } from 'antd';
 import { GithubOutlined } from '@ant-design/icons';
-import styles from './Header.module.scss';
+import styles from './Header.module.less';
 import logo from '../../assets/bq.jpg';
 
 const Header = () => {

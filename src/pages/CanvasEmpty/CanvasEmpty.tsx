@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './CanvasEmpty.module.scss';
+import styles from './CanvasEmpty.module.less';
 
 const CanvasEmpty = () => {
 

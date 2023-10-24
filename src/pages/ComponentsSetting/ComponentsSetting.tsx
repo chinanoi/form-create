@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ComponentsSetting.module.scss';
+import styles from './ComponentsSetting.module.less';
 import {
     RightOutlined,
     DownOutlined,
